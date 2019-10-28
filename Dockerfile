@@ -16,6 +16,7 @@ RUN apt-get -y dist-upgrade
 RUN apt-get update
 
 RUN apt-get install \
+  nano \
   python \
   git \
   libgmp-dev \
